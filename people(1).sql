@@ -109,9 +109,9 @@ CREATE TABLE IF NOT EXISTS `bildiriler` (
 --
 
 INSERT INTO `bildiriler` (`bildiriid`, `insanid`, `bildiri_kategoriid`, `yazarlar`, `yazar_sayisi`, `yazar_siralamasi`, `baslik`, `etkinlik_adi`, `sehir`, `ulkeid`, `url1`, `url2`, `url1_etiket`, `url2_etiket`, `sil`, `alan_bilgisi`, `etkinlik_baslangic_tarihi`, `etkinlik_bitis_tarihi`, `basim_turid`, `bildiri_yayin_durumid`, `dilid`, `basim_tarihi`, `cilt`, `sayi`, `ozel_sayi`, `ilk_sayfa`, `son_sayfa`, `doi`, `isbn`, `issn`, `sponsor`, `toplam_atif_sayisi`) VALUES
-(1, 1, 1, 'Sefa DÜNDAR;Mehmet BULUT;Sinan CANAN;Özkan ÖZLÜ;Sezgin Kaçar;İlyas Çankaya', 6, 4, 'BİLİŞSEL STİLLERİ FARKLI OLAN ÖĞRENCİLERİN\r\nARİTMETİK PROBLEMLERİ ÇÖZME SÜRECİNDE\r\nBEYİN DALGALARININ İNCELENMESİ', 'INTERNATIONAL SYMPOSIUM ON CHANGES AND NEW TRENDS IN EDUCATION', 'Konya', 216, 'http://egtsemp.konya.edu.tr/', 'http://egtsemp.konya.edu.tr/', 'Sempozyum Web Sitesi', 'Bağlantı 2', 0, NULL, '0000-00-00', '0000-00-00', 3, 2, 2, '0000-00-00', 0, 0, 0, 0, 0, '', '', '', 0, 0),
-(2, 1, 1, 'Özkan ÖZLÜ;Sefa DÜNDAR', 2, 1, 'TECHNOLOGY USE IN EDUCATION: WEB BASED ONLINE QUIZ EXAMPLE', 'INTERNATIONAL SYMPOSIUM ON CHANGES AND NEW TRENDS IN EDUCATION', 'Konya', 216, 'http://egtsemp.konya.edu.tr/', 'http://egtsemp.konya.edu.tr/', 'Sempozyum Web Sitesi', 'Bağlantı 2', 0, NULL, '0000-00-00', '0000-00-00', 3, 2, 2, '0000-00-00', 0, 0, 0, 0, 0, '', '', '', 0, 0),
-(3, 1, 1, 'Özkan ÖZLÜ;Pınar ONAY-DURDU', 2, 1, 'İçerik Yönetim Sistemi Kullanılabilirlik Değerlendirmesi: Joomla 3 ', 'International Conference on Education in Mathematics, Science and Technology', 'Konya', 216, 'http://www.icemst.com', 'http://www.icemst.com', 'Konferans Web Sayfası', 'Bağlantı 2', 0, NULL, '0000-00-00', '0000-00-00', 3, 2, 2, '0000-00-00', 0, 0, 0, 0, 0, '', '', '', 0, 0);
+(1, 1, 1, 'Fred Durst', 6, 4, 'Choclate Starfish', 'Hot Dog Flavored Water', 'Kentucky', 216, 'http://dada.net/', 'http://dada.net/', 'Sempozyum Web Sitesi', 'Bağlantı 2', 0, NULL, '0000-00-00', '0000-00-00', 3, 2, 2, '0000-00-00', 0, 0, 0, 0, 0, '', '', '', 0, 0),
+(2, 1, 1, 'Fred Durst', 2, 1, 'Unquestionable Truth', 'Truth', 'Milwaukee', 216, 'http://dads.edu/', 'http://kodad.cc/', 'Sempozyum Web Sitesi', 'Bağlantı 2', 0, NULL, '0000-00-00', '0000-00-00', 3, 2, 2, '0000-00-00', 0, 0, 0, 0, 0, '', '', '', 0, 0),
+(3, 1, 1, 'Fred Durst;Peter Chomsky', 2, 1, 'dsad', 'dasdad, Science and Technology', 'Konya', 216, 'http://www.dsada.com', 'http://www.dsada.com', 'dasdadasda', 'dasdadd', 0, NULL, '0000-00-00', '0000-00-00', 3, 2, 2, '0000-00-00', 0, 0, 0, 0, 0, '', '', '', 0, 0);
 
 -- --------------------------------------------------------
 
@@ -195,7 +195,7 @@ CREATE TABLE IF NOT EXISTS `bilimsel_raporlar` (
 --
 
 INSERT INTO `bilimsel_raporlar` (`bilimsel_raporid`, `bilimsel_rapor_adi`, `kurum_adi`, `sehir`, `tarih`, `insanid`, `sil`, `url`, `ulke`) VALUES
-(1, 'Avrupa Birliği''nde Bilişim Teknolojileri Eğitimine Yönelik Yeni Yaklaşımların İncelenmesi ve Transferi', 'Abant İzzet Baysal Üniversitesi', 'Bolu', '2014-08-05', 1, 0, 'http://ibu.edu.tr', 'Türkiye');
+(1, 'ddd', 'ddd', 'ddd', '2004-08-05', 1, 0, 'http://ddd.com', 'Türkiye');
 
 -- --------------------------------------------------------
 
@@ -363,8 +363,8 @@ CREATE TABLE IF NOT EXISTS `editorlukler` (
 --
 
 INSERT INTO `editorlukler` (`editorlukid`, `editorluk_turid`, `insanid`, `editorluk_gorevid`, `yayin_kapsamid`, `basim_turid`, `dilid`, `ulkeid`, `yayin_adi`, `baslangic`, `bitis`, `alan_bilgisi`, `yayinevi`, `yil`, `doi`, `sehir`, `sil`) VALUES
-(1, 0, 1, 0, 0, 0, 0, 0, 'Abant İzzet Baysal Üniversitesi Fen Bilimleri Enstitüsü Dergisi', '2014-10-06', '2015-02-10', NULL, NULL, 0, NULL, '', 0),
-(2, 0, 1, 0, 0, 0, 0, 0, 'Abant İzzet Baysal Üniversitesi Sosyal Bilimleri Enstitüsü Dergisi', '2014-05-13', NULL, NULL, NULL, 0, NULL, '', 0);
+(1, 0, 1, 0, 0, 0, 0, 0, 'Greraoşaidfi Fen Bilimleri Enstitüsü Dergisi', '2014-10-06', '2015-02-10', NULL, NULL, 0, NULL, '', 0),
+(2, 0, 1, 0, 0, 0, 0, 0, 'Greraoşaidfi Sosyal Bilimleri Enstitüsü Dergisi', '2014-05-13', NULL, NULL, NULL, 0, NULL, '', 0);
 
 -- --------------------------------------------------------
 
@@ -449,8 +449,8 @@ CREATE TABLE IF NOT EXISTS `hakemlikler` (
 --
 
 INSERT INTO `hakemlikler` (`hakemlikid`, `hakemlik_turid`, `makale_indeksid`, `insanid`, `yayin_kapsamid`, `basim_turid`, `ulkeid`, `dilid`, `yayin_adi`, `alan_bilgisi`, `yayinevi`, `baslangic`, `bitis`, `yil`, `doi`, `sehir`, `sil`) VALUES
-(1, 0, 0, 1, 0, 0, 0, 0, 'Abant İzzet Baysal Üniversitesi Fen Bilimleri Enstitüsü Dergisi', NULL, NULL, '2014-10-06', '2015-02-10', 0, NULL, '', 0),
-(2, 0, 0, 1, 0, 0, 0, 0, 'Abant İzzet Baysal Üniversitesi Sosyal Bilimleri Enstitüsü Dergisi', NULL, NULL, '2014-05-13', NULL, 0, NULL, '', 0);
+(1, 0, 0, 1, 0, 0, 0, 0, 'dkfnsklfsffgfşagf Fen Bilimleri Enstitüsü Dergisi', NULL, NULL, '2014-10-06', '2015-02-10', 0, NULL, '', 0),
+(2, 0, 0, 1, 0, 0, 0, 0, 'dkfnsklfsffgfşagf Sosyal Bilimleri Enstitüsü Dergisi', NULL, NULL, '2014-05-13', NULL, 0, NULL, '', 0);
 
 -- --------------------------------------------------------
 
@@ -531,7 +531,7 @@ CREATE TABLE IF NOT EXISTS `insanlar` (
 --
 
 INSERT INTO `insanlar` (`insanid`, `unvanid`, `doktora`, `adi`, `soyadi`, `okulid`, `birimid`, `eposta`, `hakkinda`, `uzmanlik_alanlari`, `telefon`, `gsm`, `dahili`, `faks`, `calisma_alanlari`, `fotograf`, `etkin`) VALUES
-(1, 7, 0, 'Özkan', 'ÖZLÜ', 1, 2, 'ozkanozlu', 'Marmara Üniversitesi Teknik Eğitim Fakültesi 2005 mezunudur. 2005-2006 eğitim-öğretim yılında Afyonkarahisar''da bilgisayar öğretmeni olarak işe başlamıştır. 2010 yılında Bolu''ya tayin olmuştur. 2012 yılının Şubat ayında Abant İzzet Baysal Üniversitesi Bilgi İşlem Daire Başkanlığı''nda uzman olarak çalışmaya başlamıştır. Aynı yıl Afyon Kocatepe Üniversitesi''nde yüksek lisans derecesini almıştır. Halen Kocaeli Üniversitesi''nde Bilgisayar Mühendisliği Anabilim Dalı''nda doktora eğitimine devam etmektedir.', 'CMS;PHP;ASP.NET;C#;Java;CSS;XML;jQuery;Web Servisleri;Joomla;WordPress;OpenCart;Ubuntu;Entity Framework;Laravel;CodeIgniter', '+90 374 254 10 00', '+90 505 751 33 00', '1823', '+90 374 253 45 06', 'Kullanılabilirlik;SOA;Makine Öğrenmesi;Optimizasyon Algoritmaları', 'http://www.kouibel.org/wp-content/uploads/2014/10/ozkanozlu.png', 1);
+(1, 7, 0, 'dsa', 'dsa', 1, 2, 'dsad', 'sddadada.', 'CMS;PHP;ASP.NET;C#;Java;CSS;XML;jQuery;Web Servisleri;Joomla;WordPress;OpenCart;Ubuntu;Entity Framework;Laravel;CodeIgniter', '+90 3324324 00', '+90 4324234 40', '1823', '+90 34222 406', 'Kullanılabilirlik;SOA;Makine Öğrenmesi;Optimizasyon Algoritmaları', ' rewrwrew', 1);
 
 -- --------------------------------------------------------
 
@@ -648,7 +648,7 @@ CREATE TABLE IF NOT EXISTS `makaleler` (
 
 INSERT INTO `makaleler` (`makaleid`, `makale_kategoriid`, `yazarlar`, `yazar_sayisi`, `yazar_siralamasi`, `insanid`, `baslik`, `dergi`, `volume`, `pp`, `issn`, `doi`, `yil`, `ay`, `cilt`, `sayi`, `url1`, `url2`, `sil`, `url1_etiket`, `url2_etiket`, `alan_bilgisi`, `dilid`, `ozel_sayi`, `ilk_sayfa`, `son_sayfa`, `sponsor`, `ulkeid`, `toplam_atif_sayisi`, `sehir`, `keywords`) VALUES
 (1, 1, 'Emre ŞENOL-DURAK;Mithat DURAK;Özkan ÖZLÜ', 3, 3, 1, 'Testing the psychometric properties of the Ways of Coping Questionnaire (WCQ) in Turkish university students and community samples', 'Clinical Psychology and Psychotherapy', '18', '172-185', '', '10.1002', 2010, 12, '99', 3, 'http://link.springer.com/article/10.1007/s11205-010-9589-4', 'http://onlinelibrary.wiley.com/journal/10.1002/%28ISSN%291099-0879', 0, 'Makale', 'Dergi', NULL, 1, 0, 413, 429, 0, 216, 0, 'Bolu', 'Satisfaction with Life Scale;SWLS;University students;Elderly;Correctional officers;Confirmatory factor analysis;Reliability;Concurrent validity;Discriminant validity;Multi-group comparison'),
-(2, 3, 'Sefa DÜNDAR;Mehmet BULUT;Sinan CANAN;Özkan ÖZLÜ;Sezgin Kaçar;İlyas Çankaya', 6, 4, 1, 'Problem Çözme Sürecinde Beyin Dalgalarının İncelenmesi', 'Erzincan Üniversitesi Eğitim Fakültesi Dergisi', '2', '', '2148-7510', '', 2014, 10, '16', 2, 'http://eefdergi.erzincan.edu.tr/index', 'http://eefdergi.erzincan.edu.tr/article/view/5000003939', 0, 'Dergi', 'Makale', NULL, 2, 0, 1, 23, 0, 216, 0, 'Bolu', 'mathematics education;brain waves;cognitive styles');
+(2, 3, 'erwr wedasfd sf dsfds ', 6, 4, 1, 'Problem Çözme Sürecinde Beyin Dalgalarının İncelenmesi', 'Erzincan Üniversitesi Eğitim Fakültesi Dergisi', '2', '', '2148-7510', '', 2014, 10, '16', 2, 'http://eefdergi.erzincan.edu.tr/index', 'http://eefdergi.erzincan.edu.tr/article/view/5000003939', 0, 'Dergi', 'Makale', NULL, 2, 0, 1, 23, 0, 216, 0, 'Bolu', 'mathematics education;brain waves;cognitive styles');
 
 -- --------------------------------------------------------
 
@@ -774,8 +774,8 @@ CREATE TABLE IF NOT EXISTS `ogrenim_bilgileri` (
 --
 
 INSERT INTO `ogrenim_bilgileri` (`ogrenim_bilgiid`, `insanid`, `ogrenim_dereceid`, `universite`, `okul`, `program`, `mezuniyet_tarihi`) VALUES
-(1, 1, 3, 'Marmara Üniversitesi', 'Teknik Eğitim Fakültesi', 'Bilgisayar ve Kontrol Öğretmenliği', '2005'),
-(2, 1, 4, 'Afyon Kocatepe Üniversitesi', 'Fen Bilimleri Enstitüsü', 'Elektrik Eğitimi', '2012');
+(1, 1, 3, 'f sf sfsd fs  Üniversitesi', 'Eğitim Fakültesi', 'fsdfs f', '2005'),
+(2, 1, 4, 'fdfs fds fsd ersitesi', ' fsds fs itüsü', 'fdsf sdfs Eğitimi', '2012');
 
 -- --------------------------------------------------------
 
@@ -846,13 +846,13 @@ CREATE TABLE IF NOT EXISTS `patentler` (
 --
 
 INSERT INTO `patentler` (`patentid`, `patent_kategoriid`, `insanid`, `patent_dosya_turid`, `patent_basvuru_turid`, `numara`, `sinif`, `patent`, `ozet`, `basvuru_sahipleri`, `bulus_sahipleri`, `yil`, `sil`) VALUES
-(1, 1, 1, 1, 1, '1231dsaq1231', '1', '1fewf3 3fw fd4 fd fd', ' wefd wefwe fwef wef wefwfwef 23r 32r23re', 'Özkan ÖZLÜ+Elif ÖZLÜ+Burak ÖZLÜ', 'Özkan ÖZLÜ+Elif ÖZLÜ+Burak ÖZLÜ', '2015-05-04', 0),
-(2, 1, 1, 1, 2, '1231dsaq1231', '1', '1fewf3 3fw fd4 fd fd', ' wefd wefwe fwef wef wefwfwef 23r 32r23re', 'Özkan ÖZLÜ+Elif ÖZLÜ+Burak ÖZLÜ', 'Özkan ÖZLÜ+Elif ÖZLÜ+Burak ÖZLÜ', '2015-05-04', 0),
-(3, 2, 1, 1, 1, '1231dsaq1231', '1', '1fewf3 3fw fd4 fd fd', ' wefd wefwe fwef wef wefwfwef 23r 32r23re', 'Özkan ÖZLÜ+Elif ÖZLÜ+Burak ÖZLÜ', 'Özkan ÖZLÜ+Elif ÖZLÜ+Burak ÖZLÜ', '2015-05-04', 0),
-(4, 2, 1, 1, 2, '1231dsaq1231', '1', '1fewf3 3fw fd4 fd fd', ' wefd wefwe fwef wef wefwfwef 23r 32r23re', 'Özkan ÖZLÜ+Elif ÖZLÜ+Burak ÖZLÜ', 'Özkan ÖZLÜ+Elif ÖZLÜ+Burak ÖZLÜ', '2015-05-04', 0),
-(5, 3, 1, 1, 1, '1231dsaq1231', '1', '1fewf3 3fw fd4 fd fd', ' wefd wefwe fwef wef wefwfwef 23r 32r23re', 'Özkan ÖZLÜ+Elif ÖZLÜ+Burak ÖZLÜ', 'Özkan ÖZLÜ+Elif ÖZLÜ+Burak ÖZLÜ', '2015-05-04', 0),
-(6, 3, 1, 1, 1, '1231dsaq1231', '1', '1fewf3 3fw fd4 fd fd', ' wefd wefwe fwef wef wefwfwef 23r 32r23re', 'Özkan ÖZLÜ+Elif ÖZLÜ+Burak ÖZLÜ', 'Özkan ÖZLÜ+Elif ÖZLÜ+Burak ÖZLÜ', '2015-05-04', 0),
-(7, 2, 1, 2, 2, '1231dsaq1231', '1', '1fewf3 3fw fd4 fd fd', ' wefd wefwe fwef wef wefwfwef 23r 32r23re', 'Özkan ÖZLÜ+Elif ÖZLÜ+Burak ÖZLÜ', 'Özkan ÖZLÜ+Elif ÖZLÜ+Burak ÖZLÜ', '2015-05-04', 0);
+(1, 1, 1, 1, 1, '1231dsaq1231', '1', '1fewf3 3fw fd4 fd fd', ' wefd wefwe fwef wef wefwfwef 23r 32r23re', 'dsadasdasdsadsa', 'fdfsfdsfsdfdsfs', '2015-05-04', 0),
+(2, 1, 1, 1, 2, '1231dsaq1231', '1', '1fewf3 3fw fd4 fd fd', ' wefd wefwe fwef wef wefwfwef 23r 32r23re', 'dsadasdasdsadsa', 'fdfsfdsfsdfdsfs', '2015-05-04', 0),
+(3, 2, 1, 1, 1, '1231dsaq1231', '1', '1fewf3 3fw fd4 fd fd', ' wefd wefwe fwef wef wefwfwef 23r 32r23re', 'dsadasdasdsadsa', 'fdfsfdsfsdfdsfs', '2015-05-04', 0),
+(4, 2, 1, 1, 2, '1231dsaq1231', '1', '1fewf3 3fw fd4 fd fd', ' wefd wefwe fwef wef wefwfwef 23r 32r23re', 'dsadasdasdsadsa', 'fdfsfdsfsdfdsfs', '2015-05-04', 0),
+(5, 3, 1, 1, 1, '1231dsaq1231', '1', '1fewf3 3fw fd4 fd fd', ' wefd wefwe fwef wef wefwfwef 23r 32r23re', 'dsadasdasdsadsa', 'fdfsfdsfsdfdsfs', '2015-05-04', 0),
+(6, 3, 1, 1, 1, '1231dsaq1231', '1', '1fewf3 3fw fd4 fd fd', ' wefd wefwe fwef wef wefwfwef 23r 32r23re', 'dsadasdasdsadsa', 'fdfsfdsfsdfdsfs', '2015-05-04', 0),
+(7, 2, 1, 2, 2, '1231dsaq1231', '1', '1fewf3 3fw fd4 fd fd', ' wefd wefwe fwef wef wefwfwef 23r 32r23re', 'dsadasdasdsadsa', 'fdfsfdsfsdfdsfs', '2015-05-04', 0);
 
 -- --------------------------------------------------------
 
@@ -963,7 +963,7 @@ CREATE TABLE IF NOT EXISTS `projeler` (
 
 INSERT INTO `projeler` (`projeid`, `proje_kategoriid`, `proje_durumid`, `proje_rolid`, `insanid`, `baslik`, `proje_konusu`, `baslangic`, `bitis`, `sure`, `ek_sure`, `kod`, `butce`, `para_birimi`, `sahip`, `katkida_bulunanlar`, `sil`) VALUES
 (1, 1, 0, 1, 1, '2-metil-2-propilpropan-1,3-diyl bis(p-arilkarbamat) türevlerinin sentezi ve sıvı yağlar ile petrol ürünlerini jelleştirme özelliklerinin incelenmesi', NULL, '2011-04-01', '2014-04-01', 36, 6, 'TR42/14/DFD/0019', '14900', 'TL', 'Özkan ÖZLÜ', '', 0),
-(2, 3, 0, 5, 1, 'AB Ülkelerinde iş tabanlı öğrenmede eqavet kalite güvence sisteminin incelenmesi', NULL, '2014-05-01', '2014-09-01', 4, 0, '2013-1-TR1-LEO03-50060', '79500', 'TL', 'Öğr. Gör. Murat ÖZKAN', '', 0);
+(2, 3, 0, 5, 1, 'dsadasd asda dai', NULL, '2014-05-01', '2014-09-01', 4, 0, '20dsa dasdaLEO0d sad0', '42342', 'TL', 'dasdasda asdasdsa N', '', 0);
 
 -- --------------------------------------------------------
 
@@ -1073,7 +1073,7 @@ CREATE TABLE IF NOT EXISTS `sanat_etkinlikleri` (
 --
 
 INSERT INTO `sanat_etkinlikleri` (`sanat_etkinlikid`, `sanat_etkinlik_adi`, `etkinlik_baslangic_tarihi`, `etkinlik_bitis_tarihi`, `insanid`, `ulkeid`, `dilid`, `yer`, `sehir`, `sil`, `url`, `sure`, `duzenleyenler`) VALUES
-(1, 'Haydi Kızlar Okula Fotoğraf Sergisi', '2015-03-03', NULL, 1, 0, 0, NULL, 'Bolu', 0, 'http://ibu.edu.tr', '00:00:00', NULL);
+(1, 'Haydi Kızlar Okula Fotoğraf Sergisi', '2015-03-03', NULL, 1, 0, 0, NULL, 'Bolu', 0, 'http://sada das.tr', '00:00:00', NULL);
 
 -- --------------------------------------------------------
 
@@ -1099,8 +1099,8 @@ CREATE TABLE IF NOT EXISTS `spor_etkinlikleri` (
 --
 
 INSERT INTO `spor_etkinlikleri` (`spor_etkinlikid`, `spor_etkinlik_adi`, `tarih`, `sil`, `url`, `sehir`, `ulke`, `insanid`) VALUES
-(1, 'Üniversiteler Arası Halı Saha Futbol Şampiyonası', '2015-04-06', 0, 'http://ibu.edu.tr', 'Bolu', 'Türkiye', 1);
-
+(1, ' dasda  das das Şampiyonası', '2015-04-06', 0, 'http://sa das dau.dsa da', 'Bolu', 'Türkiye', 1);
+ 
 -- --------------------------------------------------------
 
 --
@@ -1132,7 +1132,7 @@ CREATE TABLE IF NOT EXISTS `tezler` (
 --
 
 INSERT INTO `tezler` (`tezid`, `insanid`, `yazar`, `baslik`, `universite`, `enstitu`, `abd`, `yil`, `sil`, `tez_turid`, `tez_kurum_turid`, `konu`, `danisman1`, `danisman2`) VALUES
-(1, 1, 'Özkan ÖZLÜ', 'Motor Tasarımı için Optimizasyon Algoritması Geliştirilmesi', 'Afyon Kocatepe Üniversitesi', 'Fen Bilimleri Enstitüsü', 'Elektrik Eğitimi', 2012, 0, 0, 0, NULL, NULL, NULL);
+(1, 1, 'Fred Durst', 'Keep on Rollin Baby', 'Manhattan', 'Somewhere', 'My Way', 2012, 0, 0, 0, NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -1485,7 +1485,7 @@ CREATE TABLE IF NOT EXISTS `uyelikler` (
 --
 
 INSERT INTO `uyelikler` (`uyelikid`, `uyelik_turid`, `uyelik_kurulus_turid`, `insanid`, `topluluk`, `baslangic_tarihi`, `bitis_tarihi`, `sil`) VALUES
-(1, 0, 0, 1, 'Marmara Üniversitesi Mezunlar Derneği', '2005-08-03', NULL, 0);
+(1, 0, 0, 1, 'Limp Bizkit Üniversitesi Mezunlar Derneği', '2005-08-03', NULL, 0);
 
 -- --------------------------------------------------------
 
